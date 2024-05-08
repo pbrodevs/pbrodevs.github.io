@@ -1,0 +1,178 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description"
+	      content="þro Devs provides expert software development services tailored to meet your specific needs. Contact us for custom solutions today.">
+	<meta name="keywords" content="software development, custom software, web development, mobile app development, software solutions">
+	<meta name="author" content="þro Devs">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>þro Devs | Software Development Services</title>
+	<link rel="icon" href="logo-s.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+        * {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+	        margin: 0;
+	        padding: 0;
+        }
+
+        body {
+            background: rgb(0, 0, 0);
+            /*background: linear-gradient(31deg, rgba(0,0,0,1) 0%, rgba(54,54,54,1) 100%);*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main {
+            width: 100vh;
+        }
+
+        #main h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        #main img {
+            display: block;
+            margin: 50px auto;
+            width: 20%;
+        }
+
+        @media (max-width: 768px) {
+			#main img {
+				width: 40%;
+			}
+		}
+
+        .contact-us,
+        .contact-us *,
+        .contact-us :after,
+        .contact-us :before,
+        .contact-us:after,
+        .contact-us:before {
+            border: 0 solid;
+            box-sizing: border-box;
+        }
+
+        .contact-us {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-appearance: button;
+            background-color: #000;
+            background-image: none;
+            color: #fff;
+            cursor: pointer;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+            Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+            Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 100%;
+            line-height: 1.5;
+            margin: 50px auto 30px;
+            border: 1px solid;
+            border-radius: 999px;
+            box-sizing: border-box;
+            display: block;
+	        width: fit-content;
+            font-weight: 900;
+            overflow: hidden;
+            padding: 1.5rem 5rem;
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        .contact-us:disabled {
+            cursor: default;
+        }
+
+        .contact-us:-moz-focusring {
+            outline: auto;
+        }
+
+        .contact-us svg {
+            display: block;
+            vertical-align: middle;
+        }
+
+        .contact-us [hidden] {
+            display: none;
+        }
+
+        .contact-us .original {
+            background: #fff;
+            color: #000;
+            display: grid;
+            inset: 0;
+            place-content: center;
+            position: absolute;
+            transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+        }
+
+        .contact-us:hover .original {
+            transform: translateY(100%);
+        }
+
+        .contact-us .letters {
+            display: inline-flex;
+        }
+
+        .contact-us span {
+            opacity: 0;
+            transform: translateY(-15px);
+            transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+        }
+
+        .contact-us span:nth-child(2n) {
+            transform: translateY(15px);
+        }
+
+        .contact-us:hover span {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .contact-us:hover span:nth-child(2) {
+            transition-delay: 0.1s;
+        }
+
+        .contact-us:hover span:nth-child(3) {
+            transition-delay: 0.2s;
+        }
+
+        .contact-us:hover span:nth-child(4) {
+            transition-delay: 0.3s;
+        }
+
+        .contact-us:hover span:nth-child(5) {
+            transition-delay: 0.4s;
+        }
+
+        .contact-us:hover span:nth-child(6) {
+            transition-delay: 0.5s;
+        }
+
+
+	</style>
+</head>
+<body>
+<section id="main">
+	<img class="animate__animated animate__fadeInUp" src="logo.png" alt="Logo">
+	<h1 class="animate__animated animate__fadeInUp animate__delay-1s">
+		Unlocking unparalleled efficiency and precision, we are the foremost choice for rapid and flawless software solutions. 💻📱
+	</h1>
+	<a class="contact-us animate__animated animate__fadeInUp animate__delay-2s" href="https://twitter.com/brodevs_co">
+		<div class="original">GET IN TOUCH</div>
+		<div class="letters">
+			<span><i class="fa-brands fa-x-twitter fa-lg"></i></span>
+		</div>
+	</a>
+</section>
+</body>
+</html>
